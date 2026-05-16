@@ -50,6 +50,12 @@ nav{
 .main{
  background-image: linear-gradient(to bottom,  RGB(35, 200, 218) , RGB(213, 244, 253))
 }
+  #destination .card{
+    background-color: #efdef1;
+  }
+  #contact .card{
+    background-color: #e7f1dc;
+  }
 
 
 @media(max-width:768px){
@@ -61,7 +67,7 @@ nav{
     .hero-content p{
         font-size: 1rem;
     }
-    #destination.class{
+    #destination .card{
       border-radius: 0px;
        transition: all 0.4s ease;
     cursor: pointer;
