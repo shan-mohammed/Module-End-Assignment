@@ -52,7 +52,18 @@ nav{
 }
   #destination .card{
     background-color: #efdef1;
-  }
+  } 
+  #destination .card:hover{
+  transform: translateY(-5px);
+  transition: 0.3s;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+#about .small-card:hover{
+  transform: translateY(-5px);
+  transition: 0.3s;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
   #contact .card{
     background-color: #e7f1dc;
   }
