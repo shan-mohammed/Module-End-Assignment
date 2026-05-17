@@ -15,10 +15,19 @@ nav{
    width: 100%;
    z-index: 10;
 }
-.hero-section{
+.nav-link:hover{
+    color: #8cc52a !important;
+}
+.hero{
     width: 100%;
     height: 100vh;
     overflow: hidden;
+}
+.hero h1{
+    
+      font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .hero-img{
@@ -45,6 +54,10 @@ nav{
     width: 90%;
 }
 .hero-content p{
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
     font-size: 1.3rem;
 }
 .main{
@@ -99,7 +112,7 @@ nav{
 }
 
 }
-@media(max-width:991px) {
+@media(min-width:768px) {
     .navbar-toggler{
         border-color: white;
     }
@@ -119,7 +132,7 @@ nav{
 
 
 }
-@media(min-width:991px) {
+@media(min-width:1024px) {
     .navbar-nav .nav-link{
         color:#ede6ee
     }
